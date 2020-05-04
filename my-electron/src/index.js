@@ -18,7 +18,10 @@ const createWindow = () => {
   });
 
   // 这里是窗口加载的html文件,你想你的文件加载不一样的demo, 请修改此处
-  mainWindow.loadURL(`file://${__dirname}/createMenu.html`);
+  mainWindow.loadURL(`file://${__dirname}/shell.html`);
+
+  // 加载对应文件的渲染进程的文件
+  // require('../main/connect.js') // eslint-disable-line
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
