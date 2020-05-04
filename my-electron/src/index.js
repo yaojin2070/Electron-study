@@ -18,7 +18,7 @@ const createWindow = () => {
   });
 
   // 这里是窗口加载的html文件,你想你的文件加载不一样的demo, 请修改此处
-  mainWindow.loadURL(`file://${__dirname}/newWindow.html`);
+  mainWindow.loadURL(`file://${__dirname}/createMenu.html`);
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();

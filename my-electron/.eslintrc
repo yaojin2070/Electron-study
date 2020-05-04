@@ -1,6 +1,8 @@
 {
   "extends": "eslint-config-airbnb",
   "rules": {
+    "no-console": 0,
+    "comma-dangle": 0,
     "semi": 0,
     "import/extensions": 0,
     "import/no-extraneous-dependencies": 0,
